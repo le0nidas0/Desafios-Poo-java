@@ -8,7 +8,7 @@ public class ContaCorrente extends Conta{
 
     @Override
     public void atualiza(double taxa){
-         saldo *= (1 + 2 * taxa);
+         saldo *= (1 + 2 * taxa / 100);
     }
     
     @Override
