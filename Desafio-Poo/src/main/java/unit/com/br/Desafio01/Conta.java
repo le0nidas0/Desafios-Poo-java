@@ -30,6 +30,6 @@ public class Conta {
     }
 
     public void atualiza(double taxa){
-        double taxado = saldo * taxa;
+        double taxado = saldo * (taxa / 100);
     }
 }
