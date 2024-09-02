@@ -8,7 +8,6 @@ public class Secretaria extends Funcionario{
         this.ramal = ramal;
 
     }
-
     public String getRamal() {
         return ramal;
     }
